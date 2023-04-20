@@ -1,7 +1,634 @@
-.nav-menu {
-    font-family: roboto, sans-serif:
-    text decoration: none:
-    front size: 16px
-    /*line-heigt: 128%: */
-    color:
-}
+
+
+   .logolink{
+    width: 44px;
+    height: 21px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* IRIS */
+    
+    color: #4D5AE5;
+    
+    }
+
+    .logotype{
+     
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height, or 117% */
+        
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        
+        /* NAVY BLUE */
+        
+        color: #2E2F42;
+        }
+     .mail{
+            position: absolute;
+             width: 153px;
+             height: 24px;
+            left: 940px;
+            top: 24px;
+                
+                /* Body */
+                
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-decoration: none;
+                /* identical to box height, or 150% */
+                
+                letter-spacing: 0.02em;
+                
+                /* SLATE */
+                
+                color: #434455;
+                }
+
+            .tel{position: absolute;
+                width: 151px;
+                height: 24px;
+                left: 1133px;
+                top: 24px;
+                
+                /* Body */
+                
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-decoration: none;
+                /* identical to box height, or 150% */
+                
+                letter-spacing: 0.02em;
+                
+                /* SLATE */
+                
+                color: #434455;}
+
+          
+ 
+        .OS{
+      
+            /* Button */
+            width: 105px;
+height: 24px;
+
+/* Button Text */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+
+/* WHITE */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+            
+            /* Auto layout */
+            
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 16px 32px;
+            gap: 10px;
+            
+            position: absolute;
+            width: 169px;
+            height: 56px;
+            left: 636px;
+            top: 428px;
+            
+            /* IRIS */
+            
+            background: #4D5AE5;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+        }
+
+        
+
+
+                  
+                        
+               
+                               
+.secmark{
+ 
+  
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 0px 32px;
+gap: 32px;
+
+position: absolute;
+width: 264px;
+height: 380px;
+left: 156px;
+top: 1780px;
+
+/* WHITE
+
+Header background, team card background
+*/
+background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+    
+    }
+
+
+.sectom{/* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+    
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 444px;
+    top: 1780px;
+    
+    /* WHITE
+    
+    Header background, team card background
+    */
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;}
+
+    .seccamila{
+        /* Auto layout */
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 32px;
+        gap: 32px;
+        
+        position: absolute;
+        width: 264px;
+        height: 380px;
+        left: 732px;
+        top: 1780px;
+        
+        /* WHITE
+        
+        Header background, team card background
+        */
+        background: #FFFFFF;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;}
+
+        .secdaniel{
+            /* Auto layout */
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 0px 32px;
+            gap: 32px;
+            
+            position: absolute;
+            width: 264px;
+            height: 380px;
+            left: 1020px;
+            top: 1780px;
+            
+            /* WHITE
+            
+            Header background, team card background
+            */
+            background: #FFFFFF;
+            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+            border-radius: 0px 0px 4px 4px;}
+
+            .imglight{
+                position: absolute;
+                width: 1440px;
+                height: 732px;
+                left: 0px;
+                top: 1548px;
+                
+                /* CLOUD */
+                
+                background: #F4F4FD;}
+
+    .our{
+        position: absolute;
+        width: 162px;
+        height: 40px;
+        left: 639px;
+        top: 1666px;
+        
+        /* Header 2 */
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+      
+        /* identical to box height, or 111% */
+        
+        text-align: center;
+        letter-spacing: 0.0em;
+        text-transform: capitalize;
+        
+        /* NAVY BLUE */
+        
+        color: #2E2F42;
+        }        
+        
+
+
+.computer{box-sizing: border-box;
+
+    width: 360px;
+    height: 300px;
+    
+    background: url(2368.jpg);
+    /* CORNFLOWER */
+    
+    border: 1px solid #E7E9FC;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+
+    .slide{
+        box-sizing: border-box;
+        
+        width: 360px;
+        height: 300px;
+        
+        background: url(2225.jpg);
+        /* CORNFLOWER */
+        
+        border: 1px solid #E7E9FC;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;}
+
+        .phone{box-sizing: border-box;
+
+            width: 360px;
+            height: 300px;
+            
+            background: url(photo-1545235617-7a424c1a60cc.jpg);
+            /* CORNFLOWER */
+            
+            border: 1px solid #E7E9FC;
+            
+            /* Inside auto layout */
+            
+            flex: none;
+            order: 0;
+            flex-grow: 0;}
+        
+     
+        
+  .textfoot{position: absolute;
+    width: 264px;
+    height: 72px;
+    left: 156px;
+    top: 2420px;
+    
+    /* Body */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    letter-spacing: 0.02em;
+    
+    /* CLOUD */
+    
+    color: #F4F4FD;}    
+    
+    .darkfoot{position: absolute;
+        width: 1440px;
+        height: 312px;
+        left: 0px;
+        top: 2280px;
+        
+        /* NAVY BLUE */
+        
+        background: #2E2F42;}
+
+   .link{width: 44px;
+    height: 21px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* IRIS */
+    
+    color: #4D5AE5;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}     
+
+    .type{
+        width: 71px;
+        height: 21px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height, or 117% */
+        
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+        /* CLOUD */
+        
+        color: #F4F4FD;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;}
+  .card1{/* Project Card 1 */
+
+
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 360px;
+    height: 420px;
+    left: 156px;
+    top: 288px;
+    
+    /* WHITE
+    
+    Header background, team card background
+    */
+    background: #FFFFFF;
+    /* CORNFLOWER */
+    
+
+    border: 1px solid #E7E9FC;}
+
+    .card2{box-sizing: border-box;
+
+        position: absolute;
+        width: 360px;
+        height: 420px;
+        left: 540px;
+        top: 288px;
+        
+        /* WHITE
+        
+        Header background, team card background
+        */
+        background: #FFFFFF;
+        /* CORNFLOWER */
+        
+        border: 1px solid #E7E9FC;}
+
+        .card3{
+            box-sizing: border-box;
+            
+            position: absolute;
+            width: 360px;
+            height: 420px;
+            left: 924px;
+            top: 288px;
+            
+            /* WHITE
+            
+            Header background, team card background
+            */
+            background: #FFFFFF;
+            /* CORNFLOWER */
+            
+            border: 1px solid #E7E9FC;}
+
+     .card4{
+        box-sizing: border-box;
+        
+        position: absolute;
+        width: 360px;
+        height: 420px;
+        left: 156px;
+        top: 756px;
+        
+        /* WHITE
+        
+        Header background, team card background
+        */
+        background: #FFFFFF;
+        /* CORNFLOWER */
+        
+        border: 1px solid #E7E9FC;}    
+        
+        .card5{
+            box-sizing: border-box;
+            
+            position: absolute;
+            width: 360px;
+            height: 420px;
+            left: 540px;
+            top: 756px;
+            
+            /* WHITE
+            
+            Header background, team card background
+            */
+            background: #FFFFFF;
+            /* CORNFLOWER */
+            
+            border: 1px solid #E7E9FC;}
+
+       .card6{box-sizing: border-box;
+
+        position: absolute;
+        width: 360px;
+        height: 420px;
+        left: 924px;
+        top: 756px;
+        
+        /* WHITE
+        
+        Header background, team card background
+        */
+        background: #FFFFFF;
+        /* CORNFLOWER */
+        
+        border: 1px solid #E7E9FC;}
+       .card7{box-sizing: border-box;
+
+        position: absolute;
+        width: 360px;
+        height: 420px;
+        left: 156px;
+        top: 1224px;
+        
+        /* WHITE
+        
+        Header background, team card background
+        */
+        background: #FFFFFF;
+        /* CORNFLOWER */
+        
+        border: 1px solid #E7E9FC;}
+       .card8{
+        box-sizing: border-box;
+        
+        position: absolute;
+        width: 360px;
+        height: 420px;
+        left: 540px;
+        top: 1224px;
+        
+        /* WHITE
+        
+        Header background, team card background
+        */
+        background: #FFFFFF;
+        /* CORNFLOWER */
+        
+        border: 1px solid #E7E9FC;}
+       .card9{box-sizing: border-box;
+
+        position: absolute;
+        width: 360px;
+        height: 420px;
+        left: 924px;
+        top: 1224px;
+        
+        /* WHITE
+        
+        Header background, team card background
+        */
+        background: #FFFFFF;
+        /* CORNFLOWER */
+        
+        border: 1px solid #E7E9FC;}
+
+       .desing{box-sizing: border-box;
+        width: 53px;
+        height: 24px;
+        
+        /* Button Text */
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        
+        /* IRIS */
+        
+        color: #4D5AE5;
+        /* Auto layout */
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
+        
+        width: 101px;
+
+        height: 48px;
+        
+        /* CLOUD */
+        
+        background: #F4F4FD;
+        /* CORNFLOWER */
+        
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 3;
+        flex-grow: 0;}
+        
+        .darffo{
+            position: absolute;
+            width: 1440px;
+            height: 312px;
+            left: 0px;
+            top: 1764px;
+            
+            /* NAVY BLUE */
+            
+            background: #2E2F42;}
