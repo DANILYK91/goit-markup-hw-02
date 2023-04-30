@@ -1,58 +1,55 @@
+   body {
+   font-family: Roboto;
+   color: #2E2F42, #434455, #F4F4FD;
+   }
+   
+ 
+    
+    
    .logolink{
   
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-    /* identical to box height, or 117% */
-    
+    line-height: 1.7;
     display: flex;
     align-self: start;;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    /* IRIS */
-    
     color: #4D5AE5;
     }
     
     .logotype{
-     
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-        
+    line-height: 1.7;   
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-        
+    text-transform: uppercase;   
     color: #2E2F42;
     }
+
     .menu-link{
         text-decoration: none;
     }
 
     .menu-link{
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.50; 
-        letter-spacing: 0.02em;
-        color: #2E2F42;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50; 
+    letter-spacing: 0.02em;
+    color: #2E2F42;
     }
         
     
-
-
-
-
     .mail{
-   
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -63,14 +60,11 @@
     }
 
     .tel{
-   
-     /* Body */
      font-family: 'Roboto';
      font-style: normal;
      font-weight: 400;
-     font-size: 16px;
-     line-height: 24px; 
-    
+    font-size: 16px;
+    line-height: 1.5; 
     text-decoration: none;
     color: #434455;
     }
@@ -80,7 +74,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
 
@@ -99,7 +93,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #FFFFFF;  
     }
     
@@ -118,7 +112,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
     }
@@ -128,7 +122,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px; 
+    line-height: 1.2; 
     letter-spacing: 0.02em;
     color: #2E2F42;     
     }
@@ -138,7 +132,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;   
+    line-height: 1.2;   
     letter-spacing: 0.02em;   
     color: #2E2F42;
     }
@@ -148,7 +142,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px; 
+    line-height: 1.2; 
     letter-spacing: 0.02em;
     color: #434455;
     flex: none;
@@ -161,7 +155,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
