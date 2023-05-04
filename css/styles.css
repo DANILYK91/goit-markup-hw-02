@@ -1,7 +1,5 @@
    .body{
     font-family: "Roboto", sans-serif, 'Raleway', sans-serif,  ;
-    color: #434455;
-    background-color: #FFFFFF ;
    }
 
    :root{
@@ -19,9 +17,8 @@
    }
     
    .list{list-style: none;}
-
+ 
    .logolink{
-  
     font-family: 'Raleway',sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -29,12 +26,13 @@
     line-height: 1.17;
     display: flex;
     align-self: start;;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
     text-decoration: none;
     color: #4D5AE5;
-    }
     
+    }
+   
     .logotype{
     font-family: 'Raleway',sans-serif;
     font-style: normal;
@@ -43,7 +41,7 @@
     line-height: 1.17;   
     display: flex;
     align-items: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     text-decoration: none;
     text-transform: uppercase;   
     color: #2E2F42;
@@ -58,29 +56,44 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5; 
+    text-decoration: none;
     letter-spacing: 0.02em;
     color: #2E2F42;
     }
       
     
-    .contact{
+    .mail{
     font-family: 'Roboto'sans-serif;
+    position: absolute;
     font-style: normal;
+    width: 153px;
+    height: 24px;
+    left: 940px;
+    top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+    
+    }
+
+    .phone{
+    position: absolute;
+    font-style: normal;
+    width: 151px;
+    height: 24px;
+    left: 1133px;
+    top: 24px;
+    font-family: 'Roboto'sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
-    text-decoration: none;
+    letter-spacing: 0.02em;
     color: #434455;
-    }
+    text-decoration: none;
 
-    .contact{
-    font-family: 'Roboto'sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.50; 
-    text-decoration: none;
-    color: #434455;
     }
 
     .hero{    
@@ -106,7 +119,11 @@
     letter-spacing: 0.02em;
     color: #FFFFFF;
     }
-
+    .hero-btn:hover
+    :focus {
+    background-color: #404bbf;
+    background-color: #404BBF; 
+    }
     .hero-btn{
     display: flex;
     flex-direction: row;
@@ -132,10 +149,14 @@
     order: 0;
     flex-grow: 0;
     font-family:  "Roboto", sans-serif ;
-    cursor: pointer;
+   cursor: pointer;
 
     }
-    
+    .Features{
+   list-style: none;
+    }
+
+
     .feat{
     font-family: roboto,sans-serif ;
  
@@ -175,7 +196,7 @@
     }
 
  
-    .secmark{
+    .logo-work{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -192,7 +213,7 @@
     border-radius: 0px 0px 4px 4px;
     }
 
-    .sectom{
+    .logo-work{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -209,7 +230,7 @@
     border-radius: 0px 0px 4px 4px;
     }
 
-    .seccamila{
+    .logo-work{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -226,7 +247,7 @@
     border-radius: 0px 0px 4px 4px;
     }
 
-    .secdaniel{       
+    .logo-work{       
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -301,7 +322,7 @@
 
     }
    
-    .btn{
+    .btn:hover :focus{color: #FFFFFF;
         
     box-sizing: border-box;
     display: flex;
@@ -311,6 +332,7 @@
     padding: 12px 24px;
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
+
     border-radius: 4px; 
   
     order: 1;
@@ -356,8 +378,8 @@
     list-style: none;
     }
 
-    .Row-p{
-    font-family: 'Roboto';
+    .row-paragraph{
+    font-family: 'Roboto'sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -368,9 +390,16 @@
     order: 1;
     flex-grow: 0;
     }
-
-    .team-h{
-    font-family: 'Roboto';
+    .team{
+   position: absolute;
+   width: 1440px;
+   height: 732px;
+   left: 0px;
+   top: 1548px;
+   background-color: #F4F4FD;  
+    }
+    .team-name{
+    font-family: 'Roboto'sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -383,9 +412,9 @@
     flex-grow: 0;
     }
 
-    .team-p{
-    font-family: 'Roboto';
-    font-style: normal;
+    .team-paragraph{
+    font-family: 'Roboto'sans-serif;
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;  
@@ -399,7 +428,7 @@
 
     .logo-fot{
     font-family: 'Raleway',sans-serif;
-    font-style: normal;
+    
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;   
