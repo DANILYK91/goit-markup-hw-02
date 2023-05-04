@@ -3,6 +3,20 @@
     color: #434455;
     background-color: #FFFFFF ;
    }
+
+   :root{
+   --color-iris:#4d5ae5;
+   --color-ocean:#404bbf;
+   --color-green:#31d0aa;
+   --color-slate:#434455;
+   --color-light-slate:#8e8f99;
+   --color-cornflower:#e7e9fc;
+   --color-cloud:#f4f4fd;
+   --color-grey:#2e2f42;
+   --color-white:#ffffff;
+   --color-dairy:#fcfcfc;
+   
+   }
     
    .list{list-style: none;}
 
@@ -49,7 +63,7 @@
     }
       
     
-    .mail{
+    .contact{
     font-family: 'Roboto'sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -59,7 +73,7 @@
     color: #434455;
     }
 
-    .tel{
+    .contact{
     font-family: 'Roboto'sans-serif;
     font-style: normal;
     font-weight: 400;
