@@ -29,7 +29,7 @@ h2 {
 }
 
 .logo {
-  margin-left: 60px;
+  margin-left: 156px;
   margin-top: 26px;
   margin-right: 10px;
 }
@@ -64,19 +64,28 @@ h2 {
 
 .nav-items {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
   gap: 50px;
   list-style: none;
 }
 
+.nav-items-menu {
+  margin-left: 347px;
+  gap: 50px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+}
+
 .menu {
   text-decoration: none;
+  color: #2e2f42;
 }
 
 .navigation {
   margin-top: 24px;
+  margin-left: 24px;
 }
 
 .header {
@@ -132,10 +141,6 @@ h2 {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-}
-.hero-btn:hover :focus {
-  background-color: #404bbf;
-  background-color: #404bbf;
 }
 .hero-btn {
   display: flex;
@@ -297,7 +302,6 @@ img {
   flex-direction: row;
   justify-content: center;
   gap: 24px;
-  /* margin-bottom: 120px; */
 }
 
 .card-list li {
@@ -353,6 +357,9 @@ img {
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin-top: 101px;
+  margin-left: 200px;
+  margin-right: 100%;
 }
 
 .footer {
